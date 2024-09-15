@@ -1,15 +1,25 @@
 Project Documentation
 Done By: Maroof Tahir and Faisal Rafiq
-Overview
+
+Overview:
+
 The project involves four main phases: data collection, data cleaning, data storage and visualization of that data (stats). In the data collection phase, data is scraped from ESPNcricinfo.com using APIs to gather the latest statistics and rankings. The data cleaning phase involves processing the scraped data to ensure it is in a usable format, addressing issues such as missing values, inconsistencies, and errors. Finally, in the data storage phase, the cleaned data is written into CSV files for analysis and reporting. This project involves extracting player and team data from the ESPN Cricinfo website. The goal is to scrape the data, convert it into a CSV format, and visualize various metrics such as the number of players, top players, and most winnings. 
-Technologies Used
+
+Technologies Used:
 •	Python
+
 •	Matplotlib
+
 •	Pandas
+
 •	Pyplot
+
 •	BeautifulSoup4 
+
 •	Requests
-Project Structure
+
+Project Structure:
+
 The project directory contains the following files and directories:
 •	10 Players Bio/: A folder containing biographies of 10 selected players.
 •	ICC_ODI_Rankings.csv: CSV file containing ICC ODI rankings data.
